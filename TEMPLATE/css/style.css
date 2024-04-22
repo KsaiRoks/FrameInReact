@@ -1,0 +1,107 @@
+.hide {
+    display: none;
+}
+
+#canvas {
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#funcInputs {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+}
+
+#a,#b,#c {
+    margin-top: 1%;
+    height: 150px;
+    border-radius: 15px;
+    max-width: 250px;
+    max-height: 150px;
+    resize: none;
+    outline: none;
+    color: #999;
+    font-weight: 100;
+    font-size: 25px;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    width: 100%;
+    background: #fff;
+    line-height: 2em;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+    transition: height 2s ease;
+}
+
+#a {
+    margin-right: 10px;
+}
+
+#b {
+    margin-left: 10px;
+}
+
+#c {
+    margin-left: 20px;
+}
+
+textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#calculatePolynome,#operators,#canvas3D {
+    position: absolute;
+}
+
+#canvas3D {
+    border: 1px solid #ddd;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(84 96 115);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type='checkbox'],
+input[type='color'],
+input[type='range'],
+input[type='number'] {
+    margin-bottom: 10px;
+}
+
+input[type='range'],
+input[type='number'] {
+    width: 100px;
+    vertical-align: middle;
+}
+
+#selectSurface {
+    width: 154px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.controls-container {
+    margin-top: 20px;
+    float: left;
+}
+#interpol{
+    margin-top: 10px;
+}

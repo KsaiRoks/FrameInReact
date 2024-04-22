@@ -2,7 +2,9 @@ import React from 'react';
 
 class Graph2D extends React.Component {
     render() {
-        return(<>Graph2D</>);
+        return (<>
+        Graph2D
+        </>);
     }
 }
 
